@@ -1,0 +1,3 @@
+1. 如果用https 需要记住username和password
+2. 如果用ssh 首先需要ssh-keygen -t ed25519 -C "your_email@example.com" 或者ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_你想加的（比如名字dkr)
+3. 然后一直按enter(除非想自己设置), 最后cat cat ~/.ssh/id_ed25519_你想加的.pub, 把结果copy paste到ssh new key里面, 按照github(existing)的步骤配置
