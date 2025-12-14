@@ -1,0 +1,5 @@
+Host github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/你的id (可以通过cat ~/.ssh/config查看)
+
+ssh-add ~/.ssh/你的id (然后通过ssh -T git@github.com查看)

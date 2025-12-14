@@ -1,0 +1,2 @@
+mkdir my_git, cd my_git, git init, echo 'hello'>file1.txt,
+git add file1.txt, git commit -m '我的第一次commit‘, git push, 之后file1.txt就出现到github里面了(需要刷新)
